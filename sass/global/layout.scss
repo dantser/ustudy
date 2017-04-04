@@ -1,0 +1,46 @@
+body {
+	font-family: "AvenirNext", "Arial", sans-serif;
+}
+.wrapper {
+	width: 1400px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* BUTTONS */
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	color: #ffffff;
+	text-align: center;
+	&:hover {
+		transition: ease-in-out, 0.25s;
+		opacity: 0.7;
+	}
+}
+.btn__more {
+	width: 236px;
+	height: 60px;
+	box-shadow: 0 10px 35px rgba(13, 54, 135, 0.6);
+	border-radius: 30px;
+	background-color: $btnBg;
+	line-height: 57px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.text-blue {
+	color: #2856b3;
+}
+.text-blue__underline {
+	&::after {
+			position: absolute;
+			content: "";
+			border-bottom: 1px solid #2856b3;
+			bottom: 1px;
+			left: 0;
+			height: 1px;
+			width: 100%;
+		}
+}

@@ -1,0 +1,24 @@
+.promo {
+	padding-top: 347px;
+	color: $whiteText;
+	text-align: center;
+	min-height: 793px;
+	background: #a49b92 url("../img/back.png") no-repeat center;
+	background-size: cover;
+	
+	.promo__slogan {
+		margin: 0 310px;
+		margin-bottom: 15px;
+		font-size: 72px;
+		line-height: 70px;
+		font-weight: 500;
+	}
+	h2 {
+		margin: 0 325px;
+		margin-bottom: 32px;
+		font-size: 26px;
+		line-height: 60px;
+		break-after: always;
+	}
+}
+

@@ -1,0 +1,19 @@
+.footer {
+	p {
+		display: block;
+		margin: 45px 505px 56px 229px;
+		color: #b3b3b3;
+		line-height: 34px;
+		font-size: 14px;
+		font-weight: 500;
+		
+	}
+	a {
+		position: relative;
+		&:hover {
+		transition: ease-in-out, 0.25s;
+		opacity: 0.7;
+		}
+	}
+	
+}

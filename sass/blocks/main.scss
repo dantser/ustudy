@@ -1,0 +1,64 @@
+.main {
+	padding-top: 70px;
+	min-height: 817px;
+	background: #faf8f6 url("../img/guy.png") no-repeat 100px 70px;
+	color: $blackText;
+	font-weight: 500;
+}
+.main--container {
+	margin: 23px 304px 0 628px;
+}
+.main--header {
+	font-size: 46px;
+	line-height: 60px;
+	margin-bottom: 36px;
+	font-weight: 500;
+}
+.main--text {
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 45px;
+	max-width: 427px;
+	font-weight: 500;
+	padding-left: 2px;
+}
+
+.main--list	{
+	margin: 25px 0;
+	
+}
+.main--list-item {
+	padding-left: 30px;
+	position: relative;
+	line-height: 30px;
+	&::before {
+		position: absolute;
+		content: "";
+		top: 12px;
+		left: 10px;
+		width: 7px;
+		height: 7px;
+		background-color: #0f4ed0;
+		border-radius: 50%;
+		
+	}
+}
+.btn__main {
+	box-shadow: 0 10px 35px rgba(40, 86, 179, 0.2);
+	margin-bottom: 58px;
+	margin-left: 4px;
+}
+.partner {
+	width: 461px;
+	border: 1px dashed rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+	text-transform: uppercase;
+	color: #b3b3b3;
+	padding: 26px 0px 23px 33px;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+
